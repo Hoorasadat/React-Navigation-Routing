@@ -1,0 +1,31 @@
+main {
+	font-size: 25px;
+	line-height: 30px;
+	margin: 0 auto;
+	padding: 2rem;
+}
+
+.aboutSection {
+	border-bottom: 1px solid #ddd;
+	padding-bottom: 20px;
+	line-height: 40px;
+}
+
+h1 {
+	margin-bottom: 2rem;
+}
+
+.aboutList {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 5px;
+}
+
+.aboutList > li {
+	font-size: 22px;
+	padding-inline-start: 10px;
+}
+.aboutList ::marker {
+	color: rgb(45, 174, 197);
+}
